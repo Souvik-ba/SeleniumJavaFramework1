@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <define name="Regression1">
+  <include name="smoke"/>
+  </define>
+  <run>
+  <include name="Regression1"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="grouptest.TestNGGroupDemo3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
